@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    overflow: hidden;
+    background: #1abc9c;
+    margin: -10px;
+}
+
+.hr
+{
+    top: 20px;
+}
+
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Ensures spacing around items */
+    margin-top: 20px;
+}
+
+.result-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48%; /* Adjust the width as needed */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds a shadow for better visibility */
+    padding: 10px;
+}
+
+.result-item img {
+    width: 50%; /* Adjust based on your design */
+    height: auto;
+    margin-bottom: 0px; /* Space between image and text */
+}
+
+.result-item p {
+    margin: 5px;
+    font-size: 1rem;
+}
+
+
+p {
+font-size: 150%;
+}
